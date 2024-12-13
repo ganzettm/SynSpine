@@ -1,4 +1,4 @@
-# SynSpine
+# SynSpine Dataset
 
 ## Dataset Description
 
