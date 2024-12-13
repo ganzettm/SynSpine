@@ -1,21 +1,20 @@
 # SynSpine
 
-Description of the dataset
+## Dataset Description
 
-This dataset is derived from the SynSpine workflow, a pioneering approach designed to generate synthetic magnetic resonance (MR) data that authentically simulates longitudinal spinal cord (SC) deformations, such as cord atrophy. This addresses the critical need for reliable ground truth data to evaluate and validate specialized analysis algorithms.
-The SynSpine workflow consists of two phases: 
-1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; 
-2) performing non-rigid registration to align the synthetic images with the subject's native space, ensuring accurate anatomical correspondence. Images with various levels of simulated atrophy and Rician noise are provided.
+The SynSpine dataset originates from the innovative SynSpine workflow, designed to create synthetic magnetic resonance (MR) data that realistically mimics longitudinal spinal cord deformations, such as cord atrophy. This dataset fulfills the crucial need for reliable ground truth data, enabling the evaluation and validation of advanced analysis algorithms.
 
-What is new in this release?
-This version of the dataset is the first release
+The SynSpine workflow is executed in three key phases:
 
-Previous versions
-No previous versions
+1) Synthetic MR Image Generation: The spinal cord is isolated, extracted, and scaled using the PAM50 template to produce synthetic MR images (on the PAM50 space).
+2) Non-Rigid Registration: These synthetic images are aligned to the subject's native space through non-rigid registration, ensuring precise anatomical correspondence with the PAM50 template.
+3) Noise Simulation: Rician noise is added to the synthetic MR images to accurately replicate noise patterns typically observed in MR imaging.
 
-Contacts
+## Contacts
 For more information about the dataset and eventual collaborations, please contact Dr. Marco Ganzetti.
 
 Email: ganzettm@gmail.com
+
 Google Scholar: https://scholar.google.com/citations?user=RWlbB04AAAAJ&hl=en&oi=ao
+
 LinkedIn: https://ch.linkedin.com/in/marco-ganzetti
