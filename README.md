@@ -1,6 +1,6 @@
 # SynSpine Dataset
 
-## Dataset Description
+## Description
 
 The SynSpine dataset originates from the innovative SynSpine workflow, designed to create synthetic magnetic resonance (MR) data that realistically mimics longitudinal spinal cord deformations, such as cord atrophy. This dataset fulfills the crucial need for reliable ground truth data, enabling the evaluation and validation of advanced analysis algorithms.
 
